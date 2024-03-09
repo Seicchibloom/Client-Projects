@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/069c6ed89e.js" crossorigin="anonymous"></script>
+    <title>Portfolio ni Wang</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logos.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href=#header>Home</a></li>
+                    <li><a href=#about>About</a></li>
+                    <li><a href=#services>Services</a></li>
+                    <li><a href=#portfolio>Portfolio</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div id="headertext" class="header-text animate__backInLeft">
+                <p>Multimedia/Film Student</p>
+                <h1>
+                    Hi, I am <span>Aldrine Harris</span><br> from CIIT Philippines
+                </h1>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="animate__backInLeft">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui recusandae distinctio architecto alias quisquam deserunt, consequuntur omnis similique quas asperiores aliquid incidunt expedita debitis, laborum sapiente, in illo? Minima, necessitatibus!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Job Desc 1</span><br>Job About 1</li>
+                            <li><span>Job Desc 2</span><br>Job About 2</li>
+                            <li><span>Job Desc 3</span><br>Job About 3</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Exp 1</span><br>Exp About 1</li>
+                            <li><span>Exp 2</span><br>Exp About 2</li>
+                            <li><span>Exp 3</span><br>Exp About 3</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Educ 1</span><br>Educ About 1</li>
+                            <li><span>Educ 2</span><br>Educ About 2</li>
+                            <li><span>2023-Current</span><br>CIIT Philippines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="services" class="animate__backInLeft">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-video"></i>
+  
+                    <h2>Film</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquam quae unde, pariatur cum non, reprehenderit obcaecati repellat maiores amet ex commodi eaque. Excepturi in maxime pariatur nobis. Repellat, dolore!</p>
+                        <a href="#">Learn More</a>                            
+                        
+                </div>
+                <div>
+                    <i class="fa-solid fa-image"></i>
+                    <h2>Image Editing</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quasi ducimus, officia dignissimos a sequi consequatur nemo excepturi et soluta magnam provident vel quo labore minus? Est laudantium voluptatem illum. </p>
+                        <a href="#">Learn More</a>                            
+                        
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Photoshoot </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eligendi unde officiis, dolorum tempore, autem maiores, quia deleniti voluptates consectetur exercitationem cum non sequi alias voluptatem possimus est delectus laudantium?.</p>
+                        <a href="#">Learn More</a>                            
+                        
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Photoshoot </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eligendi unde officiis, dolorum tempore, autem maiores, quia deleniti voluptates consectetur exercitationem cum non sequi alias voluptatem possimus est delectus laudantium?.</p>
+                        <a href="#">Learn More</a>                            
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="animate__backInLeft">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg">
+                    <div class="layer">
+                        <h3>YOU'RE WORSE THAN NICOTINE</h3>
+                        <p>Details of your work</p>
+                        <a href="https://www.instagram.com/p/C2iDQMKviv8/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layer">
+                        <h3>Hanni Pham Collage</h3>
+                        <p>Details of your work</p>
+                        <a href="https://www.instagram.com/p/C2ND--XLcvT/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg">
+                    <div class="layer">
+                        <h3>Kiwoo</h3>
+                        <p>Details of your work</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work5.jpg">
+                    <div class="layer">
+                        <h3>Package Redesign</h3>
+                        <p>Details of your work</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work4.jpg">
+                    <div class="layer">
+                        <h3>I'm about to go Peter Parker</h3>
+                        <p>Details of your work</p>
+                        <a href="https://www.instagram.com/p/C4JmzsAS-Ox/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+            
+        </div>
+    </div>
+
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>aldrine.ilustricimo@ciit.edu.ph</p>
+                    <p><i class="fa-solid fa-phone"></i>09954513037</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Aldrine.Harris"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/by.hisyow/"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form> 
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©Charlie Castronuevo</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
